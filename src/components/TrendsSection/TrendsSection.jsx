@@ -1,28 +1,28 @@
 import ShowMore from "../ShowMore/ShowMore";
-import Trends from "../Trends/Trends";
+import Trend from "../Trend/Trend";
 
 const trends = [
   {
     id: "1",
-    title: " 1 . Trending",
+    title: "1 . Trending",
     tagTrend: "#Microsoft363",
     numberOfTweets: " 5,466 Tweets",
   },
   {
     id: "2",
-    Title: " 2 . Politics . Trending",
+    title: "2 . Politics . Trending",
     tagTrend: "#HI-Fashion",
     numberOfTweets: " 8,464 Tweets",
   },
   {
     id: "3",
-    Title: " 3 . Rock . Trending",
+    title: "3 . Rock . Trending",
     tagTrend: "#Ferrari",
     numberOfTweets: " 5,586 Tweets",
   },
   {
     id: "4",
-    Title: " 4 . Auto Racing . Trending",
+    title: "4 . Auto Racing . Trending",
     tagTrend: "#vettel",
     numberOfTweets: " 9,416 Tweets",
   },
@@ -63,7 +63,7 @@ export default function TrendsSection() {
       <hr className="border-gray-600" />
       {trends.map(function (value) {
         return (
-          <Trends
+          <Trend
             key={value.id}
             title={value.title}
             tagTrend={value.tagTrend}

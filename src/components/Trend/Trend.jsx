@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-export default function Trends(props) {
+export default function Trend(props) {
   return (
     <>
       {/*first trending tweet*/}
@@ -40,7 +40,7 @@ export default function Trends(props) {
   );
 }
 
-Trends.propTypes = {
+Trend.propTypes = {
   title: PropTypes.string.isRequired,
   tagTrend: PropTypes.string.isRequired,
   numberOfTweets: PropTypes.string.isRequired,
