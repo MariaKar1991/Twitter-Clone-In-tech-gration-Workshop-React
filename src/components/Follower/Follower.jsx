@@ -5,7 +5,6 @@ export default function Follower(props) {
   return (
     <>
       <hr className="border-gray-600" />
-      {/*first person who to follow*/}
       <div className="flex flex-shrink-0">
         <div className="flex-1 ">
           <div className="flex items-center w-48">
