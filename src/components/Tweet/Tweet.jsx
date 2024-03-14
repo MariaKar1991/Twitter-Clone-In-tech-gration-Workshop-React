@@ -4,7 +4,6 @@ import TweetSVGIcons from "../TweetSVGIcons/TweetSVGIcons";
 export default function Tweet(props) {
   return (
     <>
-      {/*first tweet start*/}
       <div className="flex flex-shrink-0 p-4 pb-0">
         <a href="#" className="flex-shrink-0 group block">
           <div className="flex items-center">
