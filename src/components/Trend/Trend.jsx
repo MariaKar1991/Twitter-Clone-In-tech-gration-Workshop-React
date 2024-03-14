@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 export default function Trend(props) {
   return (
     <>
-      {/*first trending tweet*/}
       <div className="flex">
         <div className="flex-1">
           <p className="px-4 ml-2 mt-3 w-48 text-xs text-gray-400">
