@@ -3,6 +3,7 @@
 This project is a Twitter clone created as part of the In-tech-gration Workshop. The goal of this project is to provide a practice ground for various React concepts, including creating components(reusable components when needed), looping over components, using props and PropTypes for type checking, and applying Tailwind CSS for styling.
 
 ## Link to Vercel: https://twitter-clone-in-tech-gration-workshop-react.vercel.app/
+- It was created as part of the In-tech-gration Workshop: https://www.linkedin.com/feed/update/urn:li:activity:7168703137124343808/
 
 ## Technologies Used
 * React
